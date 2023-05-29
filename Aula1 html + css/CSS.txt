@@ -1,0 +1,48 @@
+Introdução CSS
+
+classe definido por . Exemplo .header
+
+ID definida por # exemplo #header
+ 
+ID só pode ser usado uma vez na pagina
+
+
+Box model
+
+Margin
+	Border
+		Padding 	Exemplo. topo 15px direita 10px inferior 5px esquerda 0px
+			Content
+
+Padding{
+
+	Padding-top: 0px;
+	Padding-right: 0px;
+	Padding-bottom: 0px;
+	Padding-lefd: 0px;
+}
+
+Border{
+	border: 3px solid color;
+	border-top: 1px dotted color;
+	border-tight: 0px dashed color;
+
+}
+
+
+border-radius: 10px;
+		topo 15px direita 10px inferior 5px esquerda 0px
+
+
+Dimensão e alinhamento
+
+width
+height
+
+max-width - largura máxima, ajustativo
+max-height - altura ^^^^^^^^^^^^^^^^^^
+
+margin - alinhamento
+
+text align - alinhamento de textos, left, right, center
+

@@ -1,0 +1,49 @@
+Semantica
+
+Section - seção generica de conteudo
+
+header -cabeçalho
+
+article - conteúdo relevante
+
+aside - conteudo relacionado ao principal, barra lateral
+
+footer - rodapé
+
+h1 até h6 - titulo por seção ( sómente um h1 por pagina)
+
+
+H1- Titulo de pagina
+h2- titulo de seçao
+h3 - titulo de artigo
+P - Conteúdo do artigo (texto, Imagem, codigo, videos, etc...)
+
+a - ancora de link
+
+a = href - Hiperlink onde está apontando, emails, telefones "MailsTo e Tell"
+
+a target = como o link vai ser aberto, "_Blank", para abrir em uma nova aba
+
+Imagens
+
+img src - Obrigatorio, imagem dentro ou fora do site
+
+img src ="" alt="" - descrição da foto quando não carregada, descritivo
+
+
+
+LISTAS
+agrupar coleção de intens, contatos, ingredientes etc
+
+
+ul - não mostra ordem
+
+ol - mostra ordem numerica 
+
+li - adicionar item a lista
+
+
+
+
+
+
