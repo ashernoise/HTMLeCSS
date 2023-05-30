@@ -1,0 +1,142 @@
+Introdução
+
+DIV
+
+	Comportamento block
+	Div.item*3 ( De tab, ele completara os elementos)
+
+Display: flex: alinhar lado a lado
+
+Row: (padrão) da esquerda para direita 1, 2, 3, 4
+
+row-reverse: Sentido oposto  4, 3, 2, 1
+
+column: de cima para baixo 1, 2, 3, 4
+
+column-reverse: de baixo para cima 4, 3, 2 ,1
+
+
+
+Flex Wrap
+
+Define a quebra de linha
+
+nowrap não permite quebra de linha
+
+Wrap quebra de linha assim que os flex não puderem mais ser compactados
+
+Wrap-reverse permite quebra de linha no sentido contrario, quebra e exibe acima
+
+
+flex-flow atalho para flex-direction e flex-wrap
+
+
+Justify content Alinhamento dos itens dentro dos containers e distribuição
+
+
+VARIAÇÕES
+
+flex-start- Inicio
+
+flex-end - final do container
+
+center - todos elementos ao centro
+
+space-between - espaço igual entre os elementos
+
+obs* primeiro elemento proximo a borda esquerda
+ultimo elemento proximo a borda direita (fim do container)
+
+space-around - espaçamento do meio duas vezes maior que que inicial e final
+
+align-items - alinhamento dos items de acordo com eixo do container, permite
+alinhamento no eixo vertical
+permite o alinhamento no eixo vertical
+obs* diferente do justify-contente, não tem necessidade de saber a altura dos
+items do containter
+
+center: alinhamento ao centro
+stretch: padrão de crescimento dos itens
+flex-start: alinhamento dos itens no inicio
+flex-end: alinhamento no final
+baseline:utiliza a linha do texto no conteudo dos itens como base para 
+alinhamento
+
+
+
+align content
+
+responsavel por tratar alunhamento das linhas eixo vertical do container
+
+container precisa utilizar: quebra de linhas e ser maior que a soma das linhas
+dos itens
+
+
+
+tipos de alinhamento
+
+center: alinahmento dos itens no centro
+stretch: maior elemento e crescer de acordo com ele
+
+flex-start: de acordo com inicio
+flex-end: de acordo com final
+space-between: espaçamento igual entre elementos
+space-around: espaçamento duas vezes maiores que inicial e final
+
+
+
+flex-grow -define proporção de crescimento dos itens
+sempre respeitando tamanho dos conteudos internos
+obs* não faz compressão dos itens nem quebra
+obs2* se houver justify, não funciona onde estiver flex grow zerado (0)
+
+Flex basis - estabelece tamanho inicial dos itens antes da distribuição
+ do espaço restante dentro dele, ex. pega o tamanho minino que o item
+precisa ter, após isso faz distribuição da sobra de espaço antes e 
+após o conteúdo, lidar com tamanho minimo esperado pelo item
+
+flex-shrink - estabelecer capacidade de redução de um item
+se estabelecido em 0 não permite que o item redusa  em relação ao primeiro
+ item, baseado no container
+
+se shrink = 1 mantem dnetro co container
+se = 0, quebra o container
+
+
+
+
+flex
+
+grow = 1
+
+shrink = 1
+
+basis = 0
+cresce sem dar quebra de linha, sem quebra de container
+
+
+Order: define a ordem que o item será distribuid( colocado)
+
+
+flex: distribui conteudo igualmente
+
+
+align-self:  estabelece alinhamento individual de acordo com item trabalhado
+
+(não pode haver align dentro do container)
+
+
+auto: padrão, respeita definição definida no container
+
+flex-start: inicio do container
+
+flex-end: fim do container
+
+center: relativo ao centro do container
+
+stretch: ocupa todos espaços, alturas e larguras
+
+baseline: usa linha base da tipografia
+
+se o align-self estiver : auto
+o container precisa conter align-item: center;
